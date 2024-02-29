@@ -19,7 +19,7 @@
    position: absolute ;
    bottom: 0;
    width: 80px;
-   animation: pipe-animation 1.8s infinite linear;
+   animation: pipe-animation 3.8s infinite linear ;
 }
 
 
@@ -28,7 +28,7 @@
 
 
 @keyframes pipe-animation {
-    from{right: 0;
+    from{right: -80px;
 
     }
 
@@ -72,7 +72,7 @@
     }
 }
 
-.nuvens {
+.nuvem {
     width: 550px;
     position: absolute;
     animation: nuvemsemexendo 10s infinite linear;
@@ -87,4 +87,8 @@
         right: 100%;  
      }
 
+}
+
+@media (max-width: 768px) {
+    /* Adicione estilos específicos para telas menores */
 }
